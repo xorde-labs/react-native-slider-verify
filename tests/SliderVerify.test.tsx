@@ -7,7 +7,7 @@ import * as renderer from 'react-test-renderer';
  * Tests for a component
  */
 
-import { SliderVerify } from '../src/SliderVerify';
+import { SliderVerify } from '../src';
 
 it('renders correctly', () => {
 	renderer.create(<SliderVerify />);

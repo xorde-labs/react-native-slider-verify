@@ -23,7 +23,7 @@
     "build:types": "node tools/cleanup types && tsc -p config/tsconfig.types.json",
     "clean": "node tools/cleanup",
     "package": "npm run build && npm pack",
-    "test": "jest --no-cache",
+    "test": "jest --no-cache --runInBand",
     "test:cov": "jest --coverage --no-cache",
     "addscope": "node tools/packagejson name @xorde-labs/react-native-slider-verify",
     "modules:reinstall": "rm -rf node_modules && rm -rf .jest && yarn cache clean && yarn install",
@@ -48,6 +48,7 @@
   "devDependencies": {
     "@babel/core": "^7.19.1",
     "@babel/plugin-proposal-decorators": "^7.19.1",
+    "@babel/plugin-proposal-private-methods": "^7.18.6",
     "@babel/runtime": "^7.19.0",
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
@@ -77,5 +78,11 @@
   "dependencies": {
     "react": "18.1.0",
     "react-native": "^0.70.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@react-native-community",
+      "eslint-config-prettier"
+    ]
   }
 }

@@ -3,5 +3,9 @@
   "compilerOptions": {
     "jsx": "react",
     "types": ["react-native", "jest" ,"@types/jest"],
-  }
+    "composite": true,
+    "noEmit": false,
+    "rootDir": "../"
+  },
+    "include": ["../src/**/*", "./**/*"],
 }

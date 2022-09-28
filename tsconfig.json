@@ -1,15 +1,17 @@
 {
   "extends": "@tsconfig/react-native/tsconfig.json",
   "compilerOptions": {
-    "module": "es6",
+    "module": "es2015",
     "experimentalDecorators": true,
     "skipLibCheck": true,
     "typeRoots": ["./src/types"],
     "strictPropertyInitialization": false,
+    "rootDir": "./src",
   },
   "references": [
     {
-      "path": "./tests"
+      "path": "./tests/tsconfig.json"
     }
-  ]
+  ],
+  "include": ["src/**/*"],
 }

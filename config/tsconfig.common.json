@@ -1,0 +1,13 @@
+{
+	"extends": "../tsconfig.json",
+	"compilerOptions": {
+		"jsx": "preserve",
+		"removeComments": false,
+		"strict": true,
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"noEmit": false,
+		"forceConsistentCasingInFileNames": true
+	},
+	"references": []
+}
