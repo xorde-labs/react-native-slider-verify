@@ -21,7 +21,7 @@
     "build:types": "node tools/cleanup types && tsc -p config/tsconfig.types.json",
     "clean": "node tools/cleanup",
     "package": "npm run build && npm pack",
-    "test": "NODE_ENV=testing jest --no-cache --runInBand",
+    "test": "jest --no-cache --runInBand",
     "test:cov": "jest --coverage --no-cache",
     "addscope": "node tools/packagejson name @xorde-labs/react-native-slider-verify",
     "modules:reinstall": "rm -rf node_modules && rm -rf .jest && yarn cache clean && yarn install",
