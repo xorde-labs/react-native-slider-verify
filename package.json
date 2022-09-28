@@ -23,7 +23,7 @@
     "build:types": "node tools/cleanup types && tsc -p config/tsconfig.types.json",
     "clean": "node tools/cleanup",
     "package": "npm run build && npm pack",
-    "test": "jest --no-cache --runInBand",
+    "test": "NODE_ENV=testing jest --no-cache --runInBand",
     "test:cov": "jest --coverage --no-cache",
     "addscope": "node tools/packagejson name @xorde-labs/react-native-slider-verify",
     "modules:reinstall": "rm -rf node_modules && rm -rf .jest && yarn cache clean && yarn install",
@@ -54,7 +54,7 @@
     "@commitlint/config-conventional": "^17.1.0",
     "@react-native-community/eslint-config": "^3.1.0",
     "@tsconfig/react-native": "^2.0.2",
-    "@types/jest": "^28.1.6",
+    "@types/jest": "^29.0.3",
     "@types/react": "^18.0.20",
     "@types/react-native": "^0.70.0",
     "@types/react-test-renderer": "^18.0.0",
@@ -76,7 +76,7 @@
     "webpack-cli": "^4.10.0"
   },
   "dependencies": {
-    "react": "18.1.0",
+    "react": "18.2.0",
     "react-native": "^0.70.1"
   },
   "eslintConfig": {
