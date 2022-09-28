@@ -1,7 +1,7 @@
 module.exports = {
 	preset: 'react-native',
 	globals: {
-		'ts-jest': 			{
+		'ts-jest': {
 			tsconfig: 'tests/tsconfig.json',
 			isolatedModules: true,
 		},
@@ -12,10 +12,7 @@ module.exports = {
 	},
 	testRegex: '(/tests/.*|\\.(test|spec))\\.(ts|tsx|js)$',
 	moduleFileExtensions: ['ts', 'tsx', 'js'],
-	cacheDirectory: ".jest/cache",
-	testPathIgnorePatterns: [
-		"\\.snap$",
-		"<rootDir>/node_modules/"
-	],
-	transformIgnorePatterns: []
+	cacheDirectory: '.jest/cache',
+	testPathIgnorePatterns: ['\\.snap$', '<rootDir>/node_modules/'],
+	transformIgnorePatterns: [],
 };
