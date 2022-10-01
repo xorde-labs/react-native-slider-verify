@@ -1,17 +1,10 @@
+// prettier-ignore
 {
-  "extends": "@tsconfig/react-native/tsconfig.json",
+  "extends": "@tsconfig/react-native/tsconfig.json",     /* Recommended React Native TSConfig base */
   "compilerOptions": {
-    "module": "es2015",
-    "experimentalDecorators": true,
-    "skipLibCheck": true,
-    "typeRoots": ["./src/types"],
-    "strictPropertyInitialization": false,
-    "rootDir": "./src",
-  },
-  "references": [
-    {
-      "path": "./tests/tsconfig.json"
-    }
-  ],
-  "include": ["src/**/*"],
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+
+    /* Completeness */
+    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+  }
 }
