@@ -1,17 +1,28 @@
 {
-  "extends": "@tsconfig/react-native/tsconfig.json",
   "compilerOptions": {
-    "module": "es2015",
-    "experimentalDecorators": true,
+    "baseUrl": "./",
+    "paths": {
+      "rn-slide-verify": ["./src/index"]
+    },
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "esModuleInterop": true,
+    "importsNotUsedAsValues": "error",
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "lib": ["esnext"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noImplicitUseStrict": false,
+    "noStrictGenericChecks": false,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "resolveJsonModule": true,
     "skipLibCheck": true,
-    "typeRoots": ["./src/types"],
-    "strictPropertyInitialization": false,
-    "rootDir": "./src",
-  },
-  "references": [
-    {
-      "path": "./tests/tsconfig.json"
-    }
-  ],
-  "include": ["src/**/*"],
+    "strict": true,
+    "target": "esnext"
+  }
 }
