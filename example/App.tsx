@@ -1,6 +1,6 @@
 import React from 'react';
 import { SafeAreaView, StyleSheet, Text, Button } from 'react-native';
-import SlideVerify from 'rn-slide-verify';
+import SlideVerify from 'react-native-slider-verify';
 
 const App = () => {
   const [refresh, setRefresh] = React.useState(1);

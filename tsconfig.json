@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "rn-slide-verify": ["./src/index"]
+      "react-native-slider-verify": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

@@ -1,29 +1,27 @@
-# rn-slide-verify
+# react-native-slider-verify
 
 Slide To Verify
 
 ## Installation
 
 ```sh
-npm install rn-slide-verify
+npm install react-native-slider-verify
 ```
 
-
-A pure JavaScript `<SlideVerify>` component for react-native. Drag the slider to fill the puzzle for verifying normal operation.
-
-<img src="https://github.com/Jancat/react-native-slide-verify/blob/master/Screenshots/sample.gif?raw=true">
+A pure JavaScript component for react-native. Drag the slider to fill the puzzle for verifying normal operation.
 
 ## Installation
+
 ```shell
 yarn add react-native-slide-verify
-````
+```
 
 > ensure to link react-native-vector-icons
 
 ## Usage
 
 ```js
-import SlideVerify from 'react-native-slide-verify'
+import SlideVerify from 'react-native-slider-verify'
 
 ...
 
@@ -91,6 +89,4 @@ See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the 
 MIT
 
 ---
-
-Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)
 ```

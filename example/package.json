@@ -1,6 +1,6 @@
 {
-  "name": "rn-slide-verify-example",
-  "description": "Example app for rn-slide-verify",
+  "name": "react-native-slider-verify-example",
+  "description": "Example app for react-native-slider-verify",
   "version": "0.0.1",
   "private": true,
   "scripts": {

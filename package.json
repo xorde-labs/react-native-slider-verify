@@ -1,5 +1,5 @@
 {
-  "name": "rn-slide-verify",
+  "name": "react-native-slider-verify",
   "version": "0.1.0",
   "description": "test",
   "main": "lib/commonjs/index",
@@ -13,7 +13,7 @@
     "android",
     "ios",
     "cpp",
-    "rn-slide-verify.podspec",
+    "react-native-slider-verify.podspec",
     "!lib/typescript/example",
     "!android/build",
     "!ios/build",
@@ -35,13 +35,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/techloset/SliderComponent-Library",
-  "author": "TechloSet Solutions",
+  "repository": "",
+  "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/techloset/SliderComponent-Library/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/techloset/SliderComponent-Library#readme",
+  "homepage": "",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
